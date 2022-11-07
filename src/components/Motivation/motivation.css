@@ -1,0 +1,85 @@
+.m-body{
+    padding-bottom: 50px;
+}
+.m_header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.m-img{
+    height: 40vh;
+    border-radius: 25%;
+}
+
+.m-img_why_me{
+    padding-top: 10px;
+    width: 50%;
+    height: 25vh;
+    border-radius: 100%;
+}
+
+.m{
+    display: flex;
+    height: 50vh;
+}
+.m-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.m-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-img{
+    width: 75%;
+}
+
+.m-left-wrapper{
+    background-color: deepskyblue;
+    padding: 50px;
+    border-radius: 25%;
+    color: aliceblue;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+@media screen and (max-width:990px) {
+    .m{
+        flex-direction:column ;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .m_header{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .m-left{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .m-right{
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .m-img{
+        padding: 60px;
+        width: 50%;
+        height: 60%;
+    }
+}

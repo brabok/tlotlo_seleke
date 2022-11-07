@@ -1,0 +1,35 @@
+.s_header{
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    text-align: center;
+    color: deepskyblue;
+}
+
+.m-img_sov{
+    width: 25%;
+    height: 25%;
+}
+
+@media screen and (max-width:480px) {
+    .s_header{
+        flex-direction:column ;
+    }
+
+    .m-img_sov{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+
+}
